@@ -68,7 +68,7 @@ namespace KafeBerlin.Ui
 
         private void tsmiGecmisSiparisler_Click(object sender, EventArgs e)
         {
-
+            new GecmisSiparislerForm(db).ShowDialog();
         }
     }
 }
