@@ -54,12 +54,14 @@
             this.tsmiUrunler.Name = "tsmiUrunler";
             this.tsmiUrunler.Size = new System.Drawing.Size(58, 20);
             this.tsmiUrunler.Text = "Ürünler";
+            this.tsmiUrunler.Click += new System.EventHandler(this.tsmiUrunler_Click);
             // 
             // tsmiGecmisSiparisler
             // 
             this.tsmiGecmisSiparisler.Name = "tsmiGecmisSiparisler";
             this.tsmiGecmisSiparisler.Size = new System.Drawing.Size(108, 20);
             this.tsmiGecmisSiparisler.Text = "Geçmiş Siparişler";
+            this.tsmiGecmisSiparisler.Click += new System.EventHandler(this.tsmiGecmisSiparisler_Click);
             // 
             // lvwMasalar
             // 
