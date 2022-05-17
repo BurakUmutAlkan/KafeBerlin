@@ -192,6 +192,7 @@
             this.btnTasi.TabIndex = 3;
             this.btnTasi.Text = "Taşı";
             this.btnTasi.UseVisualStyleBackColor = true;
+            this.btnTasi.Click += new System.EventHandler(this.btnTasi_Click);
             // 
             // btnAnasayfayaDon
             // 
